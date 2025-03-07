@@ -35,16 +35,16 @@ This project is a **Java-based Shape Calculator** that demonstrates **Object-Ori
 4. The user can **repeat** the process or choose to exit.
 
 ## Code Structure
-📂 OOP-Shape-Calculator
-├── 📄 Main.java // Entry point of the program
-├── 📄 Shape.java // Abstract class for all shapes
-├── 📄 Volume.java // Interface for 3D shapes
-├── 📄 Circle.java // Class for Circle (inherits Shape)
-├── 📄 Rectangle.java // Class for Rectangle (inherits Shape)
-├── 📄 Square.java // Class for Square (inherits Shape)
-├── 📄 Sphere.java // Class for Sphere (implements Volume)
-├── 📄 Cylinder.java // Class for Cylinder (implements Volume)
-├── 📄 EquilateralPyramid.java // Class for Equilateral Pyramid (implements Volume)
+OOP-Shape-Calculator
+│── Main.java // Entry point of the program
+│── Shape.java // Abstract class for all shapes
+│── Volume.java // Interface for 3D shapes
+│── Circle.java // Class for Circle (inherits Shape)
+│── Rectangle.java // Class for Rectangle (inherits Shape)
+│── Square.java // Class for Square (inherits Shape)
+│── Sphere.java // Class for Sphere (implements Volume)
+│── Cylinder.java // Class for Cylinder (implements Volume)
+│── EquilateralPyramid.java // Class for Equilateral Pyramid (implements Volume)
 
 
 ## How to Run
