@@ -32,8 +32,29 @@ This project is a **Java-based Shape Calculator** that demonstrates **Object-Ori
 1. The program displays a **menu** of available shapes.  
 2. The user **selects a shape** and enters the required dimensions.  
 3. The program **calculates and displays** the area, perimeter, and volume (if applicable).  
-4. The user can **repeat** the process or choose to exit.  
+4. The user can **repeat** the process or choose to exit.
 
+## Code Structure
+📂 OOP-Shape-Calculator
+├── 📄 Main.java // Entry point of the program
+├── 📄 Shape.java // Abstract class for all shapes
+├── 📄 Volume.java // Interface for 3D shapes
+├── 📄 Circle.java // Class for Circle (inherits Shape)
+├── 📄 Rectangle.java // Class for Rectangle (inherits Shape)
+├── 📄 Square.java // Class for Square (inherits Shape)
+├── 📄 Sphere.java // Class for Sphere (implements Volume)
+├── 📄 Cylinder.java // Class for Cylinder (implements Volume)
+├── 📄 EquilateralPyramid.java // Class for Equilateral Pyramid (implements Volume)
+
+
+## How to Run
+1. **Compile all Java files**:  
+2. **Run the program**:  
+3. **Follow the on-screen menu** and input required values.  
+
+
+## Conclusion
+This project successfully applies **OOP principles** to create a structured and reusable **shape calculator**. Each shape is **modular**, making the system **scalable** for adding more shapes in the future. The **menu-driven approach** makes the program easy to use while keeping the logic clean and efficient.  
 
 
 
